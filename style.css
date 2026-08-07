@@ -1,0 +1,277 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{ 
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif ;
+    background-image: 
+ url("background.jpg");
+       background-size: 100% 100%;
+       background-position: center;
+       background-repeat:no-repeat ;
+       min-height: 100vh;
+}
+.overlay{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 50px;
+}
+.logo{
+    width:170px;
+    background: transparent;
+}
+
+button{
+    background:red;
+    color:white ;
+    bottom:none;
+    padding: 10px 18px; 
+    border-radius:5px ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+nav img{
+    width: 180px;
+}
+
+nav button{
+    background:#e50914;
+    color:white;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:last child{
+    background-color: red;
+    color: white;
+}
+
+.hero{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+
+.hero h1{
+    font-size: 50px;
+}
+
+.hero h3{
+    margin: 20px 0;
+}
+
+.email-signup input{
+    padding: 18px;
+    width: 350px;
+}
+
+.email-signup button{
+    padding: 18px 30px;
+    background: red;
+    color: white;
+    border: none;
+}
+
+ .feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 80px;
+    border-top: 8px solid #333;
+ }
+
+ .text{
+    width: 50%;
+ }
+
+.text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text p{
+    font-size: 24px;
+}
+
+.image img{
+    width: 500px;
+}
+
+.download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 12%;
+    background: black;
+    color: white;
+    border-top: 8px solid #232323;
+}
+
+.download-text{
+    width: 50%;
+}
+
+.download-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;   
+}
+
+.download-text h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.download-img{
+    width: 50%;
+}
+
+.download-img img{
+    width: 100%;
+}
+
+.watch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 12%;
+    background: black;
+    color: white;
+    border-top: 8px solid #232323;
+}
+
+.watch-text{
+    width: 50%;
+}
+
+.watch-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.watch-text h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.watch-img{
+    width: 50%;
+}
+
+.watch-img img{
+    width: 100%;
+}
+
+.kids{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 12%;
+    background: black;
+    color: white;
+    border-top: 8px solid #232323;
+}
+
+.kids-img{
+    width: 50%;  
+}
+
+.kids-img img{
+    width: 100%;
+}
+
+.kids-text{
+    width: 50%;
+}
+
+.kids-text h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.kids-text h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.faq{
+    background: black;
+    color: white;
+    padding: 50px;
+}
+
+.faq h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-box{
+    background: #2d2d2d;
+    padding: 25px;
+    margin: 10px auto;
+    width: 80%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.faq-box:hover{
+    background: #444;
+}
+
+.footer{
+    background: black;
+    color: gray;
+    padding: 50px 12%;
+}
+
+.footer p{
+    margin-bottom: 20px;
+}
+
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-links a{
+    color: gray;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.language-btn{
+    background: transparent;
+    color: white;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.netflix{
+    color: gray;
+}
